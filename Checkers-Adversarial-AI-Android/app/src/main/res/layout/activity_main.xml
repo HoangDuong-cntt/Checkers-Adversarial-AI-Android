@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1E1E1E"
+    android:padding="24dp"
+    tools:context=".ui.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHECKERS GAME"
+        android:textColor="#B58863"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Performed by: Đặng Hoàng Dương - 65130586"
+        android:textColor="#888888"
+        android:textSize="14sp"
+        android:layout_marginBottom="48dp"/>
+
+    <Button
+        android:id="@+id/btnPlayAI"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="CHƠI VỚI MÁY (AI)"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:backgroundTint="#B58863"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnPlayPvP"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="CHƠI HAI NGƯỜI (PvP)"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:backgroundTint="#4A4A4A"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "96938127553",
+    "project_id": "checkersgameai",
+    "storage_bucket": "checkersgameai.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96938127553:android:8c96b91bcca3c0b40b2440",
+        "android_client_info": {
+          "package_name": "com.androidproject.checkersgame"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6cPnUqA2tqlXczOAy47ugTcJFCFXybSc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
