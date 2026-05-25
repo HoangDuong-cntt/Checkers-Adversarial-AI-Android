@@ -25,6 +25,11 @@
             android:name=".ui.GameActivity"
             android:exported="false" />
 
+        <activity
+            android:name=".ui.HistoryActivity"
+            android:exported="false"
+            android:label="Lịch Sử Đấu" />
+
     </application>
 
 </manifest>

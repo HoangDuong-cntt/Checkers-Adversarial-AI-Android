@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button btnPlayAI = findViewById(R.id.btnPlayAI);
         Button btnPlayPvP = findViewById(R.id.btnPlayPvP);
+        Button btnHistory = findViewById(R.id.btnHistory);
 
         // Xử lý sự kiện khi bấm nút chơi với AI
         btnPlayAI.setOnClickListener(new View.OnClickListener() {
@@ -33,6 +34,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, GameActivity.class);
                 intent.putExtra("mode", "PVP");
+                startActivity(intent);
+            }
+        });
+
+        // Xử lý sự kiện khi bấm xem lịch sử
+        btnHistory.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, HistoryActivity.class);
                 startActivity(intent);
             }
         });

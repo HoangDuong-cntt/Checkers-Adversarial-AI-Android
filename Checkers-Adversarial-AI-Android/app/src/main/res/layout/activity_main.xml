@@ -49,4 +49,14 @@
         android:textColor="#FFFFFF"
         android:layout_marginBottom="16dp"/>
 
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="LỊCH SỬ ĐẤU"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:backgroundTint="#2E7D32"
+        android:textColor="#FFFFFF"/>
+
 </LinearLayout>
