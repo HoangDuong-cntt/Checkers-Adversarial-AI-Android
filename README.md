@@ -30,8 +30,8 @@ Dự án được cấu trúc theo mô hình phân lớp rõ ràng nhằm tách 
 
 ỨNG DỤNG ANDROID:
 -
-- Giao diện ban đầu của trò chơi
-<img width="414" height="871" alt="Interface" src="https://github.com/user-attachments/assets/b2f164f7-8dd7-428d-a29d-ed592e91bd02" />
+- Giao diện ban đầu của trò chơi.
+<img width="400" height="869" alt="New Interface" src="https://github.com/user-attachments/assets/57a7ee3f-9d1b-4886-9e7f-cb07212a2c29" />
 
 - Chế độ người (quân trắng) đấu với AI (quân đen), mặc định là quân trắng đi trước. Dựa theo luật chơi thì có BẮT BUỘC ăn quân, nên khi có quân cờ buộc phải ăn thì phải đi nước cờ ăn quân đó.
 <img width="392" height="870" alt="AI" src="https://github.com/user-attachments/assets/5291363c-f92f-4f65-a7e9-d8e4430e90ff" />
@@ -42,6 +42,13 @@ Dự án được cấu trúc theo mô hình phân lớp rõ ràng nhằm tách 
 - Phong Vua sẽ có chấm tròn ở giữa, và sau khi 1 trong 2 giành chiến thắng sẽ hiện Thông báo "Chiến Thắng" hoặc khi bấm vào Chơi lại ván mới cũng  sẽ hiện Thông báo.
 <img width="404" height="876" alt="win" src="https://github.com/user-attachments/assets/de62d889-e8cf-472a-955e-800e8215f6f4" />
 
+- Tính năng lưu lại Lịch Sử Trận Đấu.
+<img width="399" height="875" alt="Luu thanhtich" src="https://github.com/user-attachments/assets/12358e7c-edd7-47d4-926a-c44393027dcf" />
+
+- Xem lại Lịch Sử Các Trận Đấu với hiển thị chế độ, thời gian chơi, thành tích Thắng/Thua.
+<img width="394" height="871" alt="UpdateResult" src="https://github.com/user-attachments/assets/96d1fa6e-6255-4bb9-9c2e-b0c5bcea2dde" />
+
+
 FIREBASE REALTIME DATABASE:
 -
 Việc đưa trọng số lên Firebase là để triển khai cơ chế Điều chỉnh chiến thuật AI từ xa không cần cập nhật ứng dụng:
@@ -50,6 +57,10 @@ Việc đưa trọng số lên Firebase là để triển khai cơ chế Điều
 <img width="534" height="192" alt="Screenshot 2026-05-20 at 18 16 33" src="https://github.com/user-attachments/assets/2b3992fd-7773-42b8-850e-97f3a862a3c8" />
 
 <img width="1081" height="67" alt="Screenshot 2026-05-20 at 18 15 45" src="https://github.com/user-attachments/assets/a4b34ab1-80da-43f0-9b3f-6cb0c2a2d23b" />
+
+-  Sau khi thành tích mỗi trận đấu được lưu lại thì trên Firebase Realtime cũng sẽ có update.
+<img width="498" height="489" alt="Screenshot 2026-05-25 at 19 08 21" src="https://github.com/user-attachments/assets/3a3936c3-9530-45f2-8807-e08b6614dede" />
+
 
 
 
