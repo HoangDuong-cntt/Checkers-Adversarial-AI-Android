@@ -57,6 +57,17 @@
         android:textSize="16sp"
         android:textStyle="bold"
         android:backgroundTint="#2E7D32"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnRules"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="HƯỚNG DẪN CHƠI"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:backgroundTint="#00796B"
         android:textColor="#FFFFFF"/>
 
 </LinearLayout>
