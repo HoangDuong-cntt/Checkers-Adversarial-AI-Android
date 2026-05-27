@@ -31,7 +31,7 @@ Dự án được cấu trúc theo mô hình phân lớp rõ ràng nhằm tách 
 ỨNG DỤNG ANDROID:
 -
 - Giao diện ban đầu của trò chơi.
-<img width="400" height="869" alt="New Interface" src="https://github.com/user-attachments/assets/57a7ee3f-9d1b-4886-9e7f-cb07212a2c29" />
+<img width="398" height="873" alt="NewInterface" src="https://github.com/user-attachments/assets/b2e3432e-bcc4-4002-bacd-6a4deee6838c" />
 
 - Chế độ người (quân trắng) đấu với AI (quân đen), mặc định là quân trắng đi trước. Dựa theo luật chơi thì có BẮT BUỘC ăn quân, nên khi có quân cờ buộc phải ăn thì phải đi nước cờ ăn quân đó.
 <img width="392" height="870" alt="AI" src="https://github.com/user-attachments/assets/5291363c-f92f-4f65-a7e9-d8e4430e90ff" />
@@ -47,6 +47,9 @@ Dự án được cấu trúc theo mô hình phân lớp rõ ràng nhằm tách 
 
 - Xem lại Lịch Sử Các Trận Đấu với hiển thị chế độ, thời gian chơi, thành tích Thắng/Thua.
 <img width="394" height="871" alt="UpdateResult" src="https://github.com/user-attachments/assets/96d1fa6e-6255-4bb9-9c2e-b0c5bcea2dde" />
+
+- Để người chơi dễ dàng tiếp cận trò chơi hơn, trò chơi sẽ cập nhật thêm tính năng Hướng dẫn chơi (luật chơi), khi bấm vào sẽ hiện ra chi tiết cách trò chơi hoạt động.
+<img width="394" height="867" alt="Rules" src="https://github.com/user-attachments/assets/8cdee72e-c9b6-45b0-9627-1803a66cc43a" />
 
 
 FIREBASE REALTIME DATABASE:
